@@ -23,7 +23,7 @@ addons:
       - master
       - beast
 script:
-  - ./gradlew clean build deploy -Pdeploy-dry  
+  - ./gradlew clean build #deploy #-Pdeploy-dry  
   # - ant -f travis.build.xml
   # other script steps might be done before running the actual analysis
   - sonar-scanner 
