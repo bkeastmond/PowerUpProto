@@ -1,7 +1,9 @@
 language: java
 
-before_script: cd "Power Up Proto"
-
+before_script: 
+  - cd "Power Up Proto"
+  - chmod +x gradlew
+  
 # install: ant
 
 before_cache:
