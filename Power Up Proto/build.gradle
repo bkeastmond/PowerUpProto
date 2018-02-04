@@ -3,8 +3,8 @@ plugins {
     id "eclipse"
     id "idea"
     id "jaci.openrio.gradle.GradleRIO" version "2018.01.22"
+    id "org.sonarqube" version "2.6"
 }
-
 def TEAM = 5493
 def ROBOT_CLASS = "org.usfirst.frc.team5493.robot.Robot"
 
