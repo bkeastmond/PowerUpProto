@@ -8,7 +8,7 @@ import edu.wpi.first.wpilibj.livewindow.LiveWindow;
 import org.usfirst.frc.team5493.robot.commands.JoystickDrive;
 import org.usfirst.frc.team5493.robot.subsystems.Climber;
 import org.usfirst.frc.team5493.robot.subsystems.CubeControls;
-import org.usfirst.frc.team5493.robot.subsystems.driveBase;
+import org.usfirst.frc.team5493.robot.subsystems.DriveBase;
 
 import edu.wpi.first.wpilibj.smartdashboard.SendableChooser;
 import edu.wpi.first.wpilibj.smartdashboard.SmartDashboard;
@@ -18,7 +18,7 @@ public class Robot extends IterativeRobot {
 
 	
 	
-	public static final driveBase driveBase = new driveBase();
+	public static final DriveBase driveBase = new DriveBase();
 	public static Climber climber;
 	public static OI oi;
 
